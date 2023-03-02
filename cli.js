@@ -23,3 +23,14 @@ longitude = Number(longitude).toFixed(2);
 const response_api = await fetch("https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&timezone=" + timezone + "&daily=precipitation_hours");
 const data = await response_api.json();
 const days = input.d;
+if (input.j){
+    console.log(data);
+    process.exit(0);
+}
+const rain_present = data.daily.precipitation_hours[days];
+if (rain_present > 0){
+    process.stdout.write("You might need your galoshes");
+}
+else{
+    process.stdout.write("You will not need your galoshes");
+}
