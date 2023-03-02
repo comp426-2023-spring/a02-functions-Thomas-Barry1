@@ -19,5 +19,8 @@
     "url": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }
