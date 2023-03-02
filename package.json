@@ -1,28 +1,28 @@
 {
-  "name": "a02-functions-thomas-barry1",
-  "version": "0.0.1",
+  "name": "a02-functions-diamoah",
+  "version": "1.0.0",
   "description": "This assignment will help you learn to create an installable Node.js command line utility.",
   "main": "galosh.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-Diamoah.git"
+  },
+  "author": "diamoah",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-Diamoah/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-Diamoah#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.41",
+    "node-fetch": "^3.3.0"
+  },
   "bin": {
     "galosh.js": "./cli.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1.git"
-  },
-  "author": "Thomas B",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1/issues"
-  },
-  "type": "module",
-  "homepage": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1#readme",
-  "dependencies": {
-    "minimist": "^1.2.8",
-    "moment": "^2.29.4",
-    "moment-timezone": "^0.5.41"
-  }
+  "type": "module"
 }
