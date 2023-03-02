@@ -2,9 +2,12 @@
   "name": "a02-functions-thomas-barry1",
   "version": "0.0.1",
   "description": "This assignment will help you learn to create an installable Node.js command line utility.",
-  "main": "cli.js",
+  "main": "galosh.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/comp426-2023-spring/a02-functions-Thomas-Barry1#readme"
 }
