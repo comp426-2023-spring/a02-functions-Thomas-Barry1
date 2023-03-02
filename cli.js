@@ -34,3 +34,10 @@ if (rain_present > 0){
 else{
     process.stdout.write("You will not need your galoshes");
 }
+if (days == 0) {
+    console.log("today.")
+  } else if (days > 1) {
+    console.log("in " + days + " days.")
+  } else {
+    console.log("tomorrow.")
+  }
